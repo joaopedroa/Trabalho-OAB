@@ -1,0 +1,30 @@
+page-registro {
+    .scroll-content {
+        background:#343f4b;      
+       
+        background-position: right bottom;
+        background-size: 650px;
+        padding:0px;
+        margin:0px;
+      }
+      .toolbar-background.toolbar-background-md{
+        background:#f53d3d;
+    }
+    label{
+        font-size:18px;
+        color:gray;
+        margin-top:20px;
+    }
+    ion-input{
+        border-bottom: solid 2px white;
+        
+    }
+    .reg{
+        margin-top:20px;
+    }
+    #login{
+        margin-top:20px;
+    }
+ 
+      
+}

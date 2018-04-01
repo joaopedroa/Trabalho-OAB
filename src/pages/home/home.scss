@@ -1,0 +1,88 @@
+page-home {
+    
+    .scroll-content{
+        
+        background-image: url('../assets/imgs/fundo_noite.jpg');
+       
+        background-position: right bottom;
+        background-size: 650px;
+    }
+    ::-webkit-input-placeholder {
+        color: white !important; 
+      }
+      :-moz-placeholder {
+        color: white !important; 
+      }
+      :-ms-input-placeholder {
+        /* IE10+ */
+        color: white !important; 
+      }
+ 
+    .logo img{
+        width: 210px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 30px;
+    }
+    #login{
+        margin-top: 15px;
+        height: 35px;
+        font-size: 14px;
+        background: #10ABF4;
+    }
+    #registre{
+       background-color: transparent;
+       color:white;
+       border-color:white;
+       border:1px solid white;
+       margin-top:20px;
+       height: 35px;
+       font-size: 14px;
+    }
+
+    .form-login{
+        margin-top: 40px;   
+    }
+    .form-login ion-input{
+        background-color:transparent;
+        border-bottom:solid 2px white;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        
+        
+    }
+   
+    .form-login .button-google{
+        background-color: #ca2829;
+    }
+    .form-login .button-facebook{
+        background-color: #3b5998;
+    }
+    .form-login .button-facebook ion-icon{
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    .form-login .button-google ion-icon{
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .form-login .other-info{
+        display: block;
+        color: #808080;
+        text-align: center;
+        padding: 7px;
+    }
+    .form-login a{
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #6a6a6b;
+    }
+    .form-login b{
+        margin-left:10px;
+        color: blue;
+        text-decoration: underline;
+
+    }
+}

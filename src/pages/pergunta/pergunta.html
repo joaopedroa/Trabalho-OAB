@@ -1,0 +1,35 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Pergunta 01</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+
+<ion-content padding>
+  <div class="box-pergunta">
+    <div class="pergunta">
+        <p>
+      Severino, advogado, é notório conhecedor das normas procedimentais e disciplinares do Estatuto da Advocacia e 
+      da OAB, bem como de seu regulamento, atuando na defesa de colegas advogados em processos disciplinares. 
+      Recentemente, Severino foi eleito conselheiro, passando a exercer essa função em certo Conselho Seccional da 
+      OAB.      
+      </p>
+      <p>
+      Considerando o caso descrito, assinale a afirmativa correta. 
+      </p>
+   
+  </div>
+  </div>
+  <div class="box-respostas">
+    <button (click)="ok(false)">Severino não poderá, enquanto exercer a função de conselheiro, atuar em processos disciplinares que tramitem perante qualquer órgão da OAB, sequer em causa própria.</button>
+    <button (click)="ok(true)">Severino não poderá, enquanto for conselheiro, atuar em processos disciplinares que tramitem perante o Conselho Seccional onde exerce sua função. Porém, perante os demais conselhos, não há vedação à sua atuação, em causa própria ou alheia. </button>
+    <button (click)="ok(false)">Severino não poderá, enquanto for conselheiro, atuar em processos disciplinares que tramitem perante o Conselho Seccional onde exerce sua função e o Conselho Federal da OAB. Porém, perante os demais conselhos, não há vedação à sua atuação, em causa própria ou alheia. </button>
+    <button (click)="ok(false)">Severino não poderá, enquanto exercer a função, atuar em processos disciplinares que tramitem perante qualquer órgão da OAB, salvo em causa própria. </button>
+  </div>
+  <div class="buttons-footer">
+      <ion-icon id = 'back' ios="ios-arrow-round-back" md="md-arrow-round-back" class = 'back-Next'></ion-icon>
+      <ion-icon id = 'next' ios="ios-arrow-round-forward" md="md-arrow-round-forward" class = 'back-Next'></ion-icon>
+  </div>
+</ion-content>

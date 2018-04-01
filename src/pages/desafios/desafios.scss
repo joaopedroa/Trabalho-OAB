@@ -1,0 +1,57 @@
+page-desafios {
+    .scroll-content {
+      background:#343f4b; 
+      background-position: right bottom;
+      background-size: 650px;
+      padding:0px;
+      margin:0px;
+    }
+    a{
+        float: right;
+        display: block;
+        color: #333333;
+    }
+    
+    button{
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+        padding: 40px;
+        border: 1px solid #d6d6d6;
+        position: relative;        
+    }
+    
+
+    button:nth-child(1){
+        margin-bottom: 30px;
+    }
+    ion-icon {
+      display: block;
+      color: #636363;
+      font-size: 80px;
+      min-width: 100px;
+    }
+    span {
+      display: block;
+      font-size: 15px;
+      margin: 0 auto;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .buttonsSelect{
+        background:#f53d3d;
+    }
+    .button-sair{
+        color:white;
+        float:right;
+        font-size:35px;
+        text-align: right;
+    }
+    .iconsDesafios{
+        color:white;
+    }
+    #imgFundo{
+        width:5px;
+        height: 10px;
+    }
+}

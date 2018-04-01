@@ -1,0 +1,26 @@
+{
+    "Users": {
+        "email": "email",
+        "uid": "uid",
+        "createDate": "sdfsdfsdf"
+    },
+    "Questions":{
+        "Question001": {
+            "Answers": {
+                "001": {
+                    "001": "1. Assinale a opção que apresenta resposta correta para o seguinte questionamento. Existe no ordenamento constitucional brasileiro possibilidade de sanção tácita de projeto de lei?",
+                    "correctAnswers": "01",
+                    "answers": {
+                        "1":"Não, todos os projetos de lei aprovados pelo Congresso Nacional devem ser submetidos ao presidente da República, que deverá expressamente se manifestar pela sanção ou veto.",
+                        "2":"Sim, dá-se a denominada sanção tácita quando, havendo sido vetado o projeto de lei, o Congresso Nacional rejeita o veto, seguindo-se a promulgação, que equivale à sanção tácita.",
+                        "3":" Sim, dá-se a sanção tácita quando, passados 15 dias do recebimento do projeto, o presidente da República não tenha se manifestado, sancionando ou vetando o projeto.",
+                        "4":" Não, porque, na ausência de sanção ou veto do presidente da República, o projeto de lei retorna ao Congresso Nacional, cabendo ao presidente do Senado promulgá-lo."
+                    }
+                },
+                "002":{
+                    "002":"2. No tocante ao controle concentrado de constitucionalidade, assinale a opção correta."
+                }
+            }
+        }
+    }
+}

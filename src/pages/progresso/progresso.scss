@@ -1,0 +1,32 @@
+page-progresso {
+    .scroll-content {
+        background:#343f4b;      
+        background-position: right bottom;
+        background-size: 650px;
+        padding:0px;
+        margin:0px;
+      }
+      .toolbar-background.toolbar-background-md{
+        background:#f53d3d;
+    }
+.star{
+    font-size:60px;
+    color:yellow;
+}
+.boxStar{
+   
+    border-radius: 3px;
+    margin-bottom: 35px;
+}
+.spanProgress{
+    font-size:20px;
+    color:white;
+    text-align:center;
+    display:block;
+}
+
+#idGridProgresso{
+    border: solid 2px  green;
+    background:#b7b7b7;
+}
+}

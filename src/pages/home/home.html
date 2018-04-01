@@ -1,0 +1,16 @@
+<ion-content padding>
+  <div class="logo">
+    <img src="assets/imgs/oab.png" />
+  </div>
+  <form class="form-login">  
+        
+    <ion-input type="text" placeholder="E-mail"></ion-input>      
+    <ion-input type="password" placeholder="Senha"></ion-input>
+    <button ion-button block class="button-register" id = 'login' (click)="openSelectGameMode()">Login</button>
+    <span class="other-info">Esqueceu sua senha?</span>
+   <!-- <button ion-button block class="button-facebook" (click)="openSelectGameMode()"><ion-icon name="logo-facebook"></ion-icon> Entrar com o Facebook</button> -->
+  <!-- <button ion-button block class="button-google" (click)="openSelectGameMode()"> <ion-icon name="logo-google"></ion-icon> Entrar com o Google</button> -->
+  <!--  <a>Já tem uma conta? <b> Faça login</b></a> -->
+  <button ion-button block id = 'registre' (click) = ' pageRegistro()'>Criar Conta</button>
+  </form>
+</ion-content>

@@ -1,0 +1,58 @@
+page-pergunta {
+    .scroll-content {
+      background: #343f4b;
+      background-position: right bottom;
+      background-size: 650px;
+    }
+    .header-pergunta{
+        width: 100%;
+        background: #cacaca;
+        padding: 5px;
+    }
+    .box-pergunta{
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+        margin-bottom: 35px;
+    }
+    .pergunta{
+        width: 100%;
+        padding: 40px 10px;
+        background-color: #f53d3d;
+    }
+    .box-respostas button{
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+        margin-bottom: 5px;
+        border: 1px solid #cacaca;
+        border-radius: 3px;
+    }
+    .buttons-footer{
+        margin: 0 auto;
+        display: block;
+        white-space: nowrap;
+        position: relative;
+        margin-left: 2px;
+    }
+    .buttons-footer button {        
+        width: 48%;
+        float: left;
+    }
+    .back-Next{
+        font-size:45px;
+    }
+    #next{
+        float: right;
+        color:#f53d3d;
+    }
+    #back{
+        float:left;
+        color:#f53d3d;
+    }
+    .toolbar-background.toolbar-background-md{
+        background:#f53d3d;
+    }
+    .alert-head{
+        background-image: url('../assets/imgs/stars.png')
+    }
+}
