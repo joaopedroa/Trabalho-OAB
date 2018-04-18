@@ -4,9 +4,9 @@
   </div>
   <form class="form-login">  
         
-    <ion-input type="text" placeholder="E-mail"></ion-input>      
-    <ion-input type="password" placeholder="Senha"></ion-input>
-    <button ion-button block class="button-register" id = 'login' (click)="openSelectGameMode()">Login</button>
+    <ion-input type="text" name="Email" [(ngModel)]="Email" placeholder="E-mail"></ion-input>      
+    <ion-input type="password" name="Senha" [(ngModel)]="Senha" placeholder="Senha"></ion-input>
+    <button ion-button block class="button-register" id = 'login' (click)="login()">Login</button>
     <span class="other-info">Esqueceu sua senha?</span>
    <!-- <button ion-button block class="button-facebook" (click)="openSelectGameMode()"><ion-icon name="logo-facebook"></ion-icon> Entrar com o Facebook</button> -->
   <!-- <button ion-button block class="button-google" (click)="openSelectGameMode()"> <ion-icon name="logo-google"></ion-icon> Entrar com o Google</button> -->

@@ -18,6 +18,21 @@ import{PerguntasQuizPage} from '../pages/perguntas-quiz/perguntas-quiz';
 import {ProgressoPage} from '../pages/progresso/progresso';
 import {RegistroPage} from '../pages/registro/registro';
 
+import { FormsModule } from '@angular/forms';
+
+import * as firebase from 'firebase';
+
+var app = firebase.initializeApp({
+  apiKey: "AIzaSyBQsMou8CwzNNRvpz6Xd8zti9dCl6spVLQ",
+  authDomain: "trabmontanha-afa5c.firebaseapp.com",
+  databaseURL: "https://trabmontanha-afa5c.firebaseio.com",
+  projectId: "trabmontanha-afa5c",
+  storageBucket: "trabmontanha-afa5c.appspot.com",
+  messagingSenderId: "922779715590"
+  });
+
+
+
 import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
